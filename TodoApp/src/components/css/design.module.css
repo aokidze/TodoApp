@@ -1,0 +1,79 @@
+body {
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  cursor: url("../assets/cursordef.svg"), auto;
+}
+.header {
+  text-align: center;
+  font-size: 96px;
+  color: rgb(80, 255, 255);
+  font-family: "Major Mono Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 170px;
+  margin-bottom: 50px;
+}
+button {
+  border: unset;
+  background: unset;
+}
+input {
+  outline: 0 !important;
+}
+.sendTodo {
+  cursor: url("../assets/cursorpointer.svg"), auto;
+  position: relative;
+  right: 50px;
+}
+.InputTodo {
+  border: none;
+  width: 500px;
+  height: 50px;
+  background: none;
+  color: white;
+  border-radius: 15px;
+  font-size: 20px;
+  cursor: url("../assets/cursorsearch.svg"), auto;
+}
+
+.FormTodo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TodosBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Todo {
+  color: white;
+  width: 500px;
+  border: 1px solid rgb(32 34 36);
+  border-radius: 10px;
+  padding: 10px;
+  word-break: break-all;
+}
+.Todos {
+  margin-top: 30px;
+  width: 570px;
+  display: flex;
+}
+.bls {
+  width: 550px;
+  height: 50px;
+  background-color: rgba(15, 16, 17, 0.7);
+  box-shadow: 0 0 15px 10px rgba(54, 54, 54, 0.4);
+  border-radius: 15px;
+  padding: 10px;
+}
+.deletebtn {
+  cursor: url("../assets/cursorpointer.svg"), auto;
+}
+.AllTodoScore {
+  color: white;
+}
+.ats {
+  display: flex;
+  justify-content: center;
+}
