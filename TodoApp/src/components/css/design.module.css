@@ -77,3 +77,32 @@ input {
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 600px) {
+  .header {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bls {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 520px) {
+  .header {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+  }
+}

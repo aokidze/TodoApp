@@ -1,7 +1,7 @@
 {
   "name": "todoapp",
   "private": true,
-  "homepage": "https://aokidze.github.io/TodoList/TodoApp",
+  "homepage": "https://aokidze.github.io/TodoApp",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
